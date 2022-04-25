@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Semana_3_Salas_Christian.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="Blue" Padding="16" CornerRadius="0">
+            <Label Text="TAREA SEMANA 3" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Entry x:Name="txtUser" Placeholder="Usuario" ></Entry>
+        <Entry x:Name="txtPass" Placeholder="Contraseña" IsPassword="True" />
+
+        <Button x:Name="btnAbrir" Text="Abrir" Clicked="btnAbrir_Clicked" BackgroundColor="Aqua"></Button>
+    </StackLayout>
+
+</ContentPage>
